@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import { supabase } from '../../lib/supabaseClient';
-import { useRouter } from 'next/router';
+import { supabase } from '../../lib/.aseClient';
+import { useRouter } from 'next/router';./lib/supabaseClient
 
-/**
+/** './lib/supabaseClient'
  * Form page for creating a new exercise. Handles file uploads to
  * Supabase Storage and inserts a record into the `exercises` table.
  */
